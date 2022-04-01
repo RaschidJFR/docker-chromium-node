@@ -1,4 +1,4 @@
-FROM node:erbium-alpine3.14
+FROM node:gallium-alpine3.15
 
 ENV CHROME_BIN=/usr/bin/chromium-browser
 

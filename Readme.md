@@ -10,5 +10,5 @@ This image contains Node.js + Chromium to test, for example, Angular projects.
 Run this image inside the directory where your `package.json` is. It will automatically run `npm test`.
 
 ```
-docker run -v $(pwd):/app raschidjfr/chromium-node
+docker run -v $(pwd):/app raschidjfr/chromium-node[:tag]
 ```
